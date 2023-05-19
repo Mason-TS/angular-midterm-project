@@ -1,0 +1,10 @@
+<div id="mainDiv">
+    <div id="detailsDiv" *ngIf="currentTitle">
+        <h2>{{currentTitle}}, {{currentEmployer}} </h2>
+        <h2>({{currentDuration}})</h2>
+        <p>{{currentDescription}}</p>
+    </div>
+    <h2  *ngIf="!(currentTitle)">Job Doesn't Exist</h2>
+
+    <a [routerLink]="['/jobs']">Back to Jobs</a>
+</div>
