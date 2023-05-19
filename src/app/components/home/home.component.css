@@ -1,0 +1,19 @@
+* {
+    text-align: center;
+
+}
+#name {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 400px;
+}
+
+#tagline {
+    border: 2px solid rgb(67, 181, 222);
+    width: 450px;
+    margin: 20px auto;
+    border-radius: 6px;
+}

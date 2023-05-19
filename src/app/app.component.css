@@ -1,0 +1,22 @@
+
+nav {
+background-color:rgb(150, 0, 16) ;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+text-align:center;
+align-items: center;
+height: 45px;
+
+
+}
+
+a {
+    padding:15px 20px ;
+    color: white;
+    text-decoration: none;
+
+}
+
+#link1 {
+    grid-column-start: 2;
+}
