@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "midterm-project": {
+    "l09-assignment": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/midterm-project",
+            "outputPath": "dist/l09-assignment",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "midterm-project:build:production"
+              "browserTarget": "l09-assignment:build:production"
             },
             "development": {
-              "browserTarget": "midterm-project:build:development"
+              "browserTarget": "l09-assignment:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "midterm-project:build"
+            "browserTarget": "l09-assignment:build"
           }
         },
         "test": {
